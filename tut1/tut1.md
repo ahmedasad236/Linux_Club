@@ -45,6 +45,18 @@
 |**rm**| To remove files & directories|
 |**man**| To show the manual page of the program|
 |**clear**| To clear the screen| 
+  
+---
+## sudo
+
+> It stands for **super user do!**
+
+> The sudo command allows you to run programs with the security privileges of another user
+
+> It likes (Run as administrator) in windows. 
+
+
+> ![Sudo command](https://res.cloudinary.com/acloud-guru/image/fetch/c_thumb,f_auto,q_auto/https://acg-wordpress-content-production.s3.us-west-2.amazonaws.com/app/uploads/2020/06/sandwich-1.png)
 
 ---
 * ### Some commands' options
