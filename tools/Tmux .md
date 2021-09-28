@@ -10,52 +10,47 @@ With Tmux you can easily switch between multiple programs in one terminal, detac
 
 On Ubntu & Debian:
 
-**sudo apt-get install tmux**
+    sudo apt-get install tmux
 
 On Arch:
 
-**sudo pacman -S tmux --noconfirm**
+    sudo pacman -S tmux --noconfirm
 
 **How to use tmux ?**
 
-     - ***Starting a tmux session:***
+   Starting a tmux session:
 
-       **$ tmux**
+     $ tmux
 
-     - ***Creating a named tmux session:***
+   Creating a named tmux session:
 
-       **$ tmux new -s session_name**
+     $ tmux new -s session_name
 
-     - ***Detaching from tmux session 
-        (returning back to shell):***
+   Detaching from tmux session (returning back to shell):
 
-       **Ctrl+b d**
+     Ctrl+b d
 
-     - ***listing all tmux sessions:***
+   listing all tmux sessions:
 
-       **$ tmux ls** 
+     $ tmux ls
 
-     - ***attaching to a tmux session:***
+   attaching to a tmux session:
 
-        **$ tmux attach-session -t 
-          session_number**
+     $ tmux attach-session -t session_number
 
-     - ***useful commands:***
+   useful commands:
 
-      **Ctrl+b ?**    get a list of all commands
+      Ctrl+b ?    get a list of all commands
 
-      **Ctrl+b c**    create a new window 
-      **Ctrl+b w**   choose window from a list 
-      **Ctrl+b ,**     rename the current window 
-      **Ctrl+b %**   split current pane 
-                        horizontally into two panes
+      Ctrl+b c    create a new window 
+      Ctrl+b w    choose window from a list 
+      Ctrl+b ,    rename the current window 
+      Ctrl+b %    split current pane horizontally into two panes
 
-      **Ctrl+b "**   split current pane vertically 
-                       into two panes
+      Ctrl+b "    split current pane vertically into two panes
 
-      **Ctrl+b o**   go to the next pane
+      Ctrl+b o    go to the next pane
 
-      **Ctrl+b ;**    toggle between the current 
-                       and previous pane
+      Ctrl+b ;    toggle between the current and previous pane
 
-      **Ctrl+b x**   close the current pane
+      Ctrl+b x    close the current pane
