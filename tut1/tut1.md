@@ -69,3 +69,4 @@
 |**cp -r**| Copy the folder with its contents|
 |**mv -r**| Move or rename a directory with its content to another directory|
 |**rm -r**| Delete a directory with its content|
+|**cd -**|  changes to the previous directory; where the user was previously to the current directory|
