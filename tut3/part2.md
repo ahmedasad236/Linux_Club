@@ -4,7 +4,7 @@
 ## **What is a pipe ?**
 > Mechanism for communication with different processes. It enables one process to send information to other process.
 
- > ![Linux pipe](https://images4.arabicprogrammer.com/769/df/df42fd88571f5f3a56c938904e957cb1.JPEG)
+> ![Linux pipe](./images/PIPE.png)
 
 > A pipe is a unidirectional mechanism, so if you need data to flow in both directions, you will need two pipes(One for each direction)
 
@@ -34,7 +34,7 @@ $ cat * | grep -i "error" | grep -v "severe" | sort > file.log
 
 > `<command> | tee <list of Sinks>`
 
-> ![Linux tee](https://sc04.alicdn.com/kf/HTB1z_sQdaSs3KVjSZPiq6AsiVXaY.jpg)
+> ![Linux tee](./images/TEE.png)
 
 ### **Examples:**
 
